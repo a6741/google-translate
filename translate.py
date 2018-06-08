@@ -59,7 +59,7 @@ class Py4Js():
         return self.ctx.call("TL",text)  
 if __name__ == '__main__':
     #print('please input')
-    word=sys.argv[1]
+    word=sys.argv[1].replace('+',' add ')
     headers={
             'cookie':'_ga=GA1.3.1163951248.1511946285; NID=131=XX0_dJsOrF47GXs2WNtO1MXyKVCK39bW4HXS0XZZ3ZYHTvMGOz8CVJe1G2XVwAJNF9MYOb1ngCqa_NegB6db2kgJ5A9hT3SScy0ag_L41wvtXHiPpNZweONFGHFNtWR_; 1P_JAR=2018-6-7-15',
     'user-agent':'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
