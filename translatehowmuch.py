@@ -67,7 +67,7 @@ if __name__ == '__main__':
 		words+=word.strip('!!!')
 		while '!!!' not in word:
 			word=input()
-			words+=word.strip('!!!').replace('&',' and ')
+			words+=word.strip('!!!').replace('&',' and ').replace('{','[').replace('}',']')
 		word=words
 		headers={
 				'cookie':'_ga=GA1.3.1163951248.1511946285; NID=131=XX0_dJsOrF47GXs2WNtO1MXyKVCK39bW4HXS0XZZ3ZYHTvMGOz8CVJe1G2XVwAJNF9MYOb1ngCqa_NegB6db2kgJ5A9hT3SScy0ag_L41wvtXHiPpNZweONFGHFNtWR_; 1P_JAR=2018-6-7-15',
